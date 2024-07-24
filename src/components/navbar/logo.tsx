@@ -27,7 +27,7 @@ const Logo = () => {
         }}
       /> */}
       <LogoIcon />
-      <h1 className="hidden pt-1.5 text-end text-3xl font-extrabold tracking-wider md:flex">
+      <h1 className="hidden pt-1.5 text-end text-3xl font-light tracking-wider md:flex">
         FSD
       </h1>
     </div>
