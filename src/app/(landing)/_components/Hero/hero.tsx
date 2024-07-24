@@ -28,7 +28,7 @@ const Hero = () => {
                 });
               }}
             >
-              <ShinyButton text="Saznaj više" className="z-50" />
+              <ShinyButton text="Saznaj više" className="z-10" />
             </div>
             <Button
               variant={"default"}
@@ -67,7 +67,7 @@ const Hero = () => {
               });
             }}
           >
-            <ShinyButton text="Saznaj više" className="z-50" />
+            <ShinyButton text="Saznaj više" className="z-10" />
           </div>
           <Button
             variant={"default"}
