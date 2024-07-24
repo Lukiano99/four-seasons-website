@@ -8,7 +8,7 @@ import { ModeToggle } from "./mode-toggle";
 import ClientOnly from "../client-only";
 const Navbar = () => {
   return (
-    <div className="fixed z-10 w-full bg-background shadow-sm">
+    <div className="fixed z-50 w-full bg-background/90 shadow-sm backdrop-blur-sm">
       <ClientOnly>
         <div className="border-b-[1px] py-2">
           <Container>
