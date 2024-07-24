@@ -31,7 +31,7 @@ const DropDownMobileMenu = () => {
                 className="w-full justify-start transition-all"
                 variant={"ghost"}
                 onClick={() => {
-                  const section = document.getElementById("porudzbine");
+                  const section = document.getElementById(link.sectionId);
                   section?.scrollIntoView({
                     behavior: "smooth",
                   });

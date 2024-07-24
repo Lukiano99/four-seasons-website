@@ -2,10 +2,8 @@ import { cn } from "@/lib/utils";
 import { links } from "@/routes/paths";
 import { Button } from "../ui/button";
 import { ModeToggle } from "./mode-toggle";
-import { useRef } from "react";
 
 const Links = () => {
-  const section = useRef<HTMLDivElement | null>(null);
   return (
     <>
       {links.map((link, idx) => {
