@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import AboutUs from "./_components/AboutUs/about-us";
 import Products from "./_components/Products/products";
 import Manufacturing from "./_components/Manufacturing/manufacturing";

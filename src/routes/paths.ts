@@ -1,29 +1,29 @@
-const linkss = {
-  oNama: {
-    label: "O nama",
-    sectionId: "o-nama",
-  },
-  proizvodi: {
-    label: "Proizvodi",
-    sectionId: "proizvodi",
-  },
-  izrada: {
-    label: "Izrada",
-    sectionId: "izrada",
-  },
-  pitanja: {
-    label: "Pitanja",
-    sectionId: "pitanja",
-  },
-  kontakt: {
-    label: "Kontakt",
-    sectionId: "kotakt",
-  },
-  poruci: {
-    label: "Poruci",
-    sectionId: "porudzbine",
-  },
-};
+// const linkss = {
+//   oNama: {
+//     label: "O nama",
+//     sectionId: "o-nama",
+//   },
+//   proizvodi: {
+//     label: "Proizvodi",
+//     sectionId: "proizvodi",
+//   },
+//   izrada: {
+//     label: "Izrada",
+//     sectionId: "izrada",
+//   },
+//   pitanja: {
+//     label: "Pitanja",
+//     sectionId: "pitanja",
+//   },
+//   kontakt: {
+//     label: "Kontakt",
+//     sectionId: "kotakt",
+//   },
+//   poruci: {
+//     label: "Poruci",
+//     sectionId: "porudzbine",
+//   },
+// };
 
 export const links = [
   {
