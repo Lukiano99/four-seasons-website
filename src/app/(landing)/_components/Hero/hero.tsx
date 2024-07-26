@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import ShinyButton from "@/components/magicui/shiny-button";
 import { links } from "@/routes/paths";
 import ImagesCarousel from "./images-carousel";
+import { ChevronRightIcon } from "lucide-react";
 const Hero = () => {
   return (
     <div id="hero" className="flex items-center md:h-screen">
@@ -32,7 +33,7 @@ const Hero = () => {
             </div>
             <Button
               variant={"default"}
-              className="z-10 w-fit hover:bg-primary hover:text-accent"
+              className="z-10 flex w-fit gap-2 hover:bg-primary hover:text-accent"
               onClick={() => {
                 const sectionId =
                   links.find((link) => link.sectionId === "porudzbine")
@@ -44,6 +45,7 @@ const Hero = () => {
               }}
             >
               Poruči svoju dasku
+              <ChevronRightIcon strokeWidth={1.1} />
             </Button>
           </div>
           <Image
@@ -71,7 +73,7 @@ const Hero = () => {
           </div>
           <Button
             variant={"default"}
-            className="z-10 w-fit hover:bg-primary hover:text-accent"
+            className="z-10 flex w-fit gap-2 transition-all hover:bg-primary hover:text-accent md:hover:scale-110"
             onClick={() => {
               const sectionId =
                 links.find((link) => link.sectionId === "porudzbine")
@@ -83,6 +85,7 @@ const Hero = () => {
             }}
           >
             Poruči svoju dasku
+            <ChevronRightIcon strokeWidth={1.1} />
           </Button>
         </div>
         <Image
