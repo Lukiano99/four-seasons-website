@@ -26,7 +26,7 @@ const Navbar = () => {
                   });
                 }}
               >
-                Poruci Odmah
+                Poruči Odmah
               </Button>
               <div className="block md:hidden">
                 <ModeToggle />

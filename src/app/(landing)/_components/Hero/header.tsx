@@ -14,10 +14,10 @@ const Header = ({ className, width }: HeaderProps) => {
       )}
     >
       <WordFadeIn
-        className={cn(className)}
-        words="Daske koje donose morske talase na tvom stolu."
+        className={cn("font-medium",className)}
+        words="Daske koje donose morske talase na tvom stolu 🌊"
       />
-      <p className={cn("w-5/6", className)}>
+      <p className={cn("w-5/6 text-accent-foreground/70 md:text-accent-foreground font-light", className)}>
         Plavi talasi i pena od epoksi smole čine naše daske savršenim za
         posluživanje sa stilom. Održive, ručno rađene i očaravajuće.
       </p>
