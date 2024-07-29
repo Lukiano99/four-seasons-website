@@ -14,7 +14,7 @@ const Hero = () => {
       <Container className="flex flex-col pt-32 md:gap-8 md:pt-0">
         <div className="flex flex-col items-center justify-center gap-10 md:flex-row md:justify-between md:gap-0">
           <Header
-            className="z-10 text-center font-normal text-accent-foreground md:text-left"
+            className="z-10 text-center md:text-left"
             width="md:w-3/5 w-full"
           />
           <div className="flex w-fit items-center gap-4 md:hidden">
@@ -55,7 +55,9 @@ const Hero = () => {
             height={600}
             className="z-10 hidden size-40 scale-110 cursor-pointer rounded-lg object-cover shadow-lg transition-all hover:rotate-12 hover:scale-125 md:block md:size-96 md:rounded-full"
           />
-          <ImagesCarousel />
+          <div className="flex md:hidden">
+            <ImagesCarousel />
+          </div>
         </div>
         <div className="hidden w-fit items-center gap-4 md:flex">
           <div
