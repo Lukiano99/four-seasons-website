@@ -2,9 +2,6 @@
 
 import Container from "@/components/container";
 import SubheaderSection from "@/components/subheader-section";
-import { AboutUsAnimation } from "./animation";
-import { DockDemo } from "./social-dock";
-import ImagesCarousel from "../Hero/images-carousel";
 import AboutUsCard from "./about-us-cards";
 import AvatarCircles from "@/components/magicui/avatar-circles";
 const avatarUrls = [
