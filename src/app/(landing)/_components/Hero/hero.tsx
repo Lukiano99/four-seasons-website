@@ -55,7 +55,9 @@ const Hero = () => {
             height={600}
             className="z-10 hidden size-40 scale-110 cursor-pointer rounded-lg object-cover shadow-lg transition-all hover:rotate-12 hover:scale-125 md:block md:size-96 md:rounded-full"
           />
-          <ImagesCarousel />
+          <div className="flex md:hidden">
+            <ImagesCarousel />
+          </div>
         </div>
         <div className="hidden w-fit items-center gap-4 md:flex">
           <div

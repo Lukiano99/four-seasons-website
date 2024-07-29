@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="fixed z-50 w-full bg-background/90 shadow-sm backdrop-blur-sm">
       <ClientOnly>
         <div className="border-b-[1px] py-2">
-          <Container>
+          <Container className="">
             <div className="flex flex-row items-center justify-between gap-3 md:gap-0">
               <Logo />
               <div className="hidden flex-row items-center justify-center md:flex">
@@ -26,7 +26,7 @@ const Navbar = () => {
                   });
                 }}
               >
-                Poruči Odmah
+                Poruci Odmah
               </Button>
               <div className="block md:hidden">
                 <ModeToggle />

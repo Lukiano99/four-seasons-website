@@ -56,7 +56,7 @@ const ImagesCarousel = ({}: ImagesCarouselProps) => {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="z-10 block w-full max-w-xs md:hidden"
+      className="z-10 block w-full max-w-xs"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
       opts={{
