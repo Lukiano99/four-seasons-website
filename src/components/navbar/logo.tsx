@@ -27,9 +27,14 @@ const Logo = () => {
         }}
       /> */}
       <LogoIcon />
-      <h1 className="hidden pt-1.5 text-end text-3xl font-light tracking-wider md:flex">
+      {/* <h1 className="hidden pt-1.5 text-end text-3xl font-light tracking-wider md:flex">
         FSD
-      </h1>
+      </h1> */}
+      <div className="hidden flex-col text-xs font-semibold leading-none md:flex">
+        <span>Four</span>
+        <span>Seasons</span>
+        <span>Design</span>
+      </div>
     </div>
   );
 };

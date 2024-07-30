@@ -1,13 +1,24 @@
+import { cn } from "@/lib/utils";
 import { FadeText } from "./magicui/fade-text";
 
 interface HeaderSectionProps {
   title: string;
   description?: string;
+  className?: string;
 }
 
-const HeaderSection = ({ title, description }: HeaderSectionProps) => {
+const HeaderSection = ({
+  title,
+  description,
+  className,
+}: HeaderSectionProps) => {
   return (
-    <div className="flex flex-col items-center justify-center gap-2 md:gap-4">
+    <div
+      className={cn(
+        "flex flex-col items-center justify-center gap-2 md:gap-4",
+        className && className,
+      )}
+    >
       <FadeText
         text={title}
         className="text-4xl font-bold md:text-6xl"
