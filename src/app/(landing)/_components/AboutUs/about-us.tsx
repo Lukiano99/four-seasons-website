@@ -4,6 +4,7 @@ import Container from "@/components/container";
 import SubheaderSection from "@/components/subheader-section";
 import AboutUsCard from "./about-us-cards";
 import AvatarCircles from "@/components/magicui/avatar-circles";
+import HeaderSection from "@/components/header-section";
 const avatarUrls = [
   "https://avatars.githubusercontent.com/u/16860528",
   "https://avatars.githubusercontent.com/u/20110627",
@@ -21,10 +22,10 @@ const AboutUs = () => {
   return (
     <div
       id="o-nama"
-      className="flex w-full flex-col items-center justify-start pt-28 md:pt-32"
+      className="flex w-full flex-col items-center justify-start pt-28 md:min-h-screen md:pt-32"
     >
       <Container className="flex w-full flex-col gap-20">
-        {/* <HeaderSection title="O nama" /> */}
+        <HeaderSection title="O nama" />
         <div className="flex flex-col space-y-8 md:flex-row md:space-x-8 md:space-y-0">
           <SubheaderSection
             title="Mi smo Four Seasons Design 👋"

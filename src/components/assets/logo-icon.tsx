@@ -9,8 +9,8 @@ const LogoIcon = () => {
           fill="#FFFFFF"
           version="1.1"
           id="Capa_1"
-          width="30px"
-          height="30px"
+          width="34px"
+          height="34px"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 380.721 380.721"
         >
@@ -34,8 +34,8 @@ const LogoIcon = () => {
           fill="#000000"
           version="1.1"
           id="Capa_1"
-          width="30px"
-          height="30px"
+          width="34px"
+          height="34px"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 380.721 380.721"
         >

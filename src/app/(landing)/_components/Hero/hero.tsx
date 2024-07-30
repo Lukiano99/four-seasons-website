@@ -8,6 +8,8 @@ import ShinyButton from "@/components/magicui/shiny-button";
 import { links } from "@/routes/paths";
 import ImagesCarousel from "./images-carousel";
 import { ChevronRightIcon } from "lucide-react";
+import heroImage from "@/components/assets/products/img_7.webp";
+
 const Hero = () => {
   return (
     <div id="hero" className="flex items-center md:h-screen">
@@ -91,13 +93,13 @@ const Hero = () => {
           </Button>
         </div>
         <Image
-          src={heroImg.src}
+          src={heroImage}
           alt="hero image"
           fill
           className="left-0 top-0 z-0 object-cover brightness-75"
         />
 
-        <div className="absolute inset-x-0 top-0 z-0 h-screen w-full bg-gradient-to-t from-background to-transparent backdrop-blur-[5px]" />
+        <div className="absolute inset-x-0 top-0 z-0 h-screen w-full bg-gradient-to-t from-background/40 to-transparent backdrop-blur-[4px]" />
       </Container>
     </div>
   );

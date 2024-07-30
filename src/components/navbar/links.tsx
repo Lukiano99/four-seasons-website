@@ -13,7 +13,7 @@ const Links = () => {
             </li>
           );
         })}
-        <div className="ml-4">
+        <div className="ml-0">
           <ModeToggle />
         </div>
       </ul>

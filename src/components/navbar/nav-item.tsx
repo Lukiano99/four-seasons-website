@@ -15,7 +15,6 @@ interface NavItemProps {
 
 const NavItem = ({ link }: NavItemProps) => {
   const activeSection = useActiveSection(links.map((link) => link.sectionId));
-
   return (
     <Button
       variant={link.variant ? "default" : "ghost"}

@@ -74,7 +74,7 @@ const SubheaderSection = ({
       {action && (
         <div className="flex items-center justify-normal">
           <Button
-            className="flex items-center gap-2 rounded-full transition-all md:hover:gap-4"
+            className="flex items-center gap-2 transition-all md:hover:gap-4"
             onClick={action}
           >
             {actionTitile ?? "Saznaj vise"}
