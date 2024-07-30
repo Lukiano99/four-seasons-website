@@ -9,13 +9,11 @@ const useActiveSection = (sectionIds: string[], threshold = 0.5) => {
     (entries: IntersectionObserverEntry[]) => {
       entries.forEach((entry) => {
         sectionRefs.current[entry.target.id] = entry;
-        console.log({ entry });
       });
 
       const visibleSections = Object.values(sectionRefs.current)
         .filter((entry) => entry.isIntersecting)
         .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
-      // console.log({ visibleSections });
       if (visibleSections[0] && visibleSections.length > 0) {
         const newActiveSection = visibleSections[0].target.id;
         if (currentActiveSection.current !== newActiveSection) {

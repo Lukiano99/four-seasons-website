@@ -48,7 +48,7 @@ const GalleryImage = ({
       >
         <div className="flex size-full flex-col items-start justify-between px-10 py-16">
           <div className="flex flex-col gap-2">
-            <h1 className="text-7xl font-bold">{label}</h1>
+            <h1 className="text-5xl font-bold md:text-7xl">{label}</h1>
             <Separator className="bg-accent-foreground" />
             <p className="text-lg font-normal italic">{description}</p>
           </div>
@@ -59,7 +59,7 @@ const GalleryImage = ({
               className="flex w-fit animate-bounce gap-0 transition-all md:hover:gap-2"
               onClick={onActionClick}
             >
-              Poruči je odmah
+              Poruči odmah
               <ChevronRightIcon size={18} />
             </Button>
           </div>

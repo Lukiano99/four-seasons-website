@@ -25,7 +25,7 @@ const images = [
   {
     image: img2,
     label: "PD & OD",
-    description: "Okrugla daska",
+    description: "Sjajan tandem",
     text: "Poklonite komadić mora sa našim prelepim daskama za serviranje. Svaka daska je ručno izrađena sa pažnjom i ljubavlju, pružajući jedinstven i nezaboravan doživljaj. Idealan poklon za one koji cene lepotu i kvalitet",
   },
   {
@@ -49,13 +49,13 @@ const images = [
   {
     image: img6,
     label: "PD & OD",
-    description: "Okrugla daska",
+    description: "Elegancija",
     text: "Poklonite luksuz i praktičnost u jednom sa našim daskama za serviranje. Ručno rađene i dizajnirane da inspirišu, ove daske su savršen dar za svakoga ko uživa u lepoti i funkcionalnosti. Neka vaši pokloni budu posebni",
   },
   {
     image: img7,
     label: "PD & OD",
-    description: "Okrugla daska",
+    description: "Tandem iz snova",
     text: "Učinite posebne trenutke još posebnijim sa našim prelepim daskama za serviranje. Savršen poklon za one koji vole eleganciju i kvalitet, naše daske donose toplinu i radost svakom domu. Iznenadite ih jedinstvenim darom",
   },
 ];
