@@ -32,7 +32,7 @@ const AboutUs = () => {
   return (
     <div
       id="o-nama"
-      className="flex w-full flex-col items-center justify-start pt-28 md:min-h-screen md:pt-32"
+      className="flex w-full flex-col items-center justify-start pt-28 md:pt-32"
     >
       <Container className="flex w-full flex-col gap-20">
         <HeaderSection title="O nama" />

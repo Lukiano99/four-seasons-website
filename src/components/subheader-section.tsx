@@ -25,7 +25,7 @@ const SubheaderSection = ({
   classNameDescription,
 }: SubheaderSectionProps) => {
   return (
-    <div className="flex w-full flex-col space-y-12 md:min-h-screen md:w-1/2">
+    <div className="flex w-full flex-col space-y-12 md:w-1/2">
       <div className="flex flex-col gap-4">
         {label && (
           <Badge className="flex w-fit items-center justify-center border border-accent-foreground bg-background py-1 text-sm font-normal text-accent-foreground hover:bg-background">
