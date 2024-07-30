@@ -1,6 +1,10 @@
+import { links } from "@/routes/paths";
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 
-const useActiveSection = (sectionIds: string[], threshold = 0.5) => {
+const useActiveSection = (
+  sectionIds: string[] = links.map((link) => link.sectionId),
+  threshold = 0.5,
+) => {
   const [activeSection, setActiveSection] = useState<string | null>(null);
   const sectionRefs = useRef<Record<string, IntersectionObserverEntry>>({});
   const currentActiveSection = useRef<string | null>(null);

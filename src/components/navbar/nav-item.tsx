@@ -1,7 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Button } from "../ui/button";
 import useActiveSection from "@/hooks/use-active-section";
-import { links } from "@/routes/paths";
 
 type CustomLink = {
   label: string;
@@ -14,7 +13,7 @@ interface NavItemProps {
 }
 
 const NavItem = ({ link }: NavItemProps) => {
-  const activeSection = useActiveSection(links.map((link) => link.sectionId));
+  const activeSection = useActiveSection();
   return (
     <Button
       variant={link.variant ? "default" : "ghost"}
