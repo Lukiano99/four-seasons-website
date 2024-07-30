@@ -32,7 +32,7 @@ const Footer = () => {
           return (
             <div
               key={idx}
-              className="flex w-fit items-start justify-start text-3xl font-bold text-accent-foreground"
+              className="flex w-fit items-center justify-center text-3xl font-bold text-accent-foreground"
             >
               <p>{link.label}</p>
             </div>
