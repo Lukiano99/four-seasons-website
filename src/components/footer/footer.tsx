@@ -4,41 +4,34 @@ import { links } from "@/routes/paths";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { Separator } from "../ui/separator";
+import Container from "../container";
+import { Badge } from "../ui/badge";
+import { FacebookIcon, InstagramIcon, MailIcon } from "lucide-react";
+import FooterLinks from "./links-section";
+import NewsletterForm from "./newsletter-form";
+
+const footerItems = [
+  { label: "Blog", released: false },
+  { label: "Recenzije kupaca", released: false },
+  // { label: "Uslovi", released: false },
+];
 
 const Footer = () => {
   return (
-    <div className="flex w-full items-center justify-center bg-muted/20 md:h-[600px]">
-      <div className="flex h-full flex-col items-center justify-between pb-20 pt-40 md:w-5/12">
-        <div className="flex w-6/12 flex-col justify-between gap-6">
-          <h1 className="text-3xl font-bold">Prijavi se na nas newsletter</h1>
-          <div className="flex gap-2">
-            <Input className="h-14" placeholder="example@gmail.com" />
-            <Button size={"lg"} className="h-full">
-              Potvrdi
-            </Button>
-          </div>
-          <p className="text-sm leading-6 text-accent-foreground/60">
-            Klikom na dugme pristajete na obradu vaših ličnih podataka i na
-            primanje specijalnih ponuda
-          </p>
+    // <div className="flex w-full items-center justify-center bg-muted/20 md:h-[600px]">
+    <div className="flex w-full justify-center bg-muted/20">
+      <Container className="flex h-[700px] w-full flex-col space-y-10 md:h-[600px] md:flex-row-reverse md:items-center md:space-y-0">
+        <div className="flex h-1/2 w-full items-center justify-end md:h-full md:w-7/12">
+          <FooterLinks />
         </div>
-        <h2>
-          © Copyright 2024, All Rights Reserved by <span>Lukiano</span>
-        </h2>
-      </div>
-      <Separator orientation="vertical" className="" />
-      <div className="flex h-full flex-col items-center justify-between pb-20 pt-40 md:w-7/12">
-        {links.map((link, idx) => {
-          return (
-            <div
-              key={idx}
-              className="flex w-fit items-center justify-center text-3xl font-bold text-accent-foreground"
-            >
-              <p>{link.label}</p>
-            </div>
-          );
-        })}
-      </div>
+        <Separator
+          orientation="vertical"
+          className="hidden bg-accent-foreground/20 md:block"
+        />
+        <div className="flex h-1/2 w-full items-start justify-start md:h-full md:w-5/12">
+          <NewsletterForm />
+        </div>
+      </Container>
     </div>
   );
 };
