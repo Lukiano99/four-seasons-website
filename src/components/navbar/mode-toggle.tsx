@@ -15,7 +15,7 @@ export function ModeToggle() {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild className="hidden">
+      <DropdownMenuTrigger asChild className="">
         <Button
           variant="ghost"
           size="icon"

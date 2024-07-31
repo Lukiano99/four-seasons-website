@@ -13,7 +13,7 @@ const NewsletterForm = () => {
         />
         <Button className="h-1/2 w-full md:w-fit">Potvrdi</Button>
       </div>
-      <p className="pb-10 text-sm font-light text-accent-foreground/80 md:p-0">
+      <p className="pb-10 text-sm font-light text-accent-foreground/80">
         Klikom na dugme pristajete na obradu vaših ličnih podataka i na primanje
         specijalnih ponuda
       </p>
